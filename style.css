@@ -41,10 +41,64 @@ html{
 
 
 .text{
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+    margin: 2rem 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: hsl(178, 100%, 50%);
+
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(215, 51%, 70%);
+    gap: 0.5rem;
+}
+
+
+svg{
+    display: block;
+}
+
+p{
+    display: block;
+}
+
+hr{
+    margin: 2rem 0;
+    border-color: hsl(215, 51%, 70%);
+}
+
+.footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+.maharani{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid white;
+    border-radius: 25px;
+}
 
 
 
